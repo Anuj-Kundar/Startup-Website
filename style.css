@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*Makes background image on a website cover the entire browser  */
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*above code refered from CSS Tricks*/
+}
+h1{
+  font-size: 3 rem;
+  color: #b8b8b8;
+}
+hr {
+   margin: 20px auto;
+   color: #F05F44;
+   border: 3px solid #F05F44;
+   max-width: 65px;
+   opacity: 1;  
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  background-color: #d94813;
+  border-color: #d94813;
+}
+.btn-primary:hover{
+  background-color: #d94813;
+  border-color: #d94813;
+  border-width: 4px;
+}
+.btn-xl{
+  padding: 1 rem 2rem; /*1 on sides and 2 on top and bottom */
+}
+.buffer{
+  height: 10rem;
+}
